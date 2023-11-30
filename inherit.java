@@ -49,6 +49,9 @@ class inherit{
         pr.topSpeed();
         pr.Pulsarspeed();
         hb.Topvelocity();
+        System.out.println(pr instanceof Vehicle);
+        System.out.println(hb instanceof Bike);
+
 
     }
 
