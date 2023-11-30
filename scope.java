@@ -29,7 +29,7 @@ class scope {
         System.out.println(obj1.a);
         // we get the earlier default that was intialized during the start of the
         // program.
-        System.out.println(obj1.b);
+        System.out.println(b);
         // changes show as varible is allocated memeory in static memory block, can be
         // called with or without object.
     }
