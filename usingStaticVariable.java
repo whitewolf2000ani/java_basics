@@ -8,7 +8,7 @@ class Student {
         age = a;
     }
 
-    void Print() {
+    void print() {
         System.out.println("Name:" + name + "\n" + "Age:" + age + "\n" + "College:" + college);
     }
 }
@@ -17,6 +17,6 @@ class Test {
 
     public static void main(String args[]) {
         Student obj = new Student(22, "Aniket");
-        obj.Print();
+        obj.print();
     }
 }
