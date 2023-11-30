@@ -15,7 +15,7 @@ class scope {
     }
 
     public static void main(String args[]) {
-        A obj = new A();
+        scope obj = new scope();
         obj.add();
         obj.mul();
         // Instance variables can be called only with object creation.
@@ -23,7 +23,7 @@ class scope {
         b = 2000;
         System.out.println(obj.a);
         System.out.println(b);
-        A obj1 = new A();
+        scope obj1 = new scope();
         // when object is created memory is allocated for "a" in heap as its a instance
         // variable.
         System.out.println(obj1.a);
