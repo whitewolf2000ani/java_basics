@@ -1,4 +1,4 @@
-class A {
+class scope {
     int a;
     static int b;
 
