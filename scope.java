@@ -9,7 +9,7 @@ class A {
     }
 
     void mul() {
-        int d ;
+        int d;
         d = a * b;
         System.out.println(d);
     }
@@ -23,11 +23,14 @@ class A {
         b = 2000;
         System.out.println(obj.a);
         System.out.println(b);
-        A obj1=new A();
-        // when object is created memory is allocated for "a" in heap as its a instance variable.
+        A obj1 = new A();
+        // when object is created memory is allocated for "a" in heap as its a instance
+        // variable.
         System.out.println(obj1.a);
-        // we get the earlier default that was intialized during the start of the program.
+        // we get the earlier default that was intialized during the start of the
+        // program.
         System.out.println(obj1.b);
-        // changes show as varible is allocated memeory in static memory block, can be called with or without object.
+        // changes show as varible is allocated memeory in static memory block, can be
+        // called with or without object.
     }
 }
