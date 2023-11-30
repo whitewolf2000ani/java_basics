@@ -3,10 +3,9 @@ class Student {
     static String college = "Tint";
     int age;
 
-    Student(int a, String Nm, String coll) {
+    Student(int a, String Nm) {
         name = Nm;
         age = a;
-        college = coll;
     }
 
     void Print() {
@@ -17,7 +16,7 @@ class Student {
 class Test {
 
     public static void main(String args[]) {
-        Student obj = new Student(22, "Aniket", "IITMadras");
+        Student obj = new Student(22, "Aniket");
         obj.Print();
     }
 }
