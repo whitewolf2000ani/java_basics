@@ -1,19 +1,22 @@
 class Aniket{
 
-    void run(){
+    public Object run(){
         System.out.println("Aniket");
+        return null;
     }
 }
 
 class Disha extends Aniket{
-    void run(){
+    
+    public String run(){
         System.out.println("Disha");
+        return null;
     }
 }
 
 class override{
     public static void main(String args[]){
-        Aniket a=new Aniket();
-        a.run();
+       Aniket d=new Disha();
+       d.run();
     }
 }
